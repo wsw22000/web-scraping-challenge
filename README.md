@@ -1,7 +1,5 @@
 # Web Scraping - Mission to Mars
 
-![Opening Photo](Missions_to_Mars/screen_shots/planet-mars.png)
-
 Built a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 
 ## Scraping
@@ -9,6 +7,8 @@ Built a web application that scrapes various websites for data related to the Mi
 Scraping occurs using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
 * Created a Jupyter Notebook file and used this to complete all scraping and analysis tasks. The following outlines what is scraped by the file.
+
+![Opening Photo](Missions_to_Mars/screen_shots/planet-mars.png)
 
 ### NASA Mars News
 
@@ -23,10 +23,6 @@ Scraping occurs using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
 * Saves a complete url string for this image.
 
 ![Scraped Web Image](Missions_to_Mars/screen_shots/updating_image.png)
-
-### Mars Weather
-
-* Visits the Mars Weather twitter account [here](https://twitter.com/marswxreport?lang=en) and scrapes the latest Mars weather tweet from the page. Saves the tweet text for the weather report as a variable called `mars_weather`.
 
 ### Mars Facts
 
