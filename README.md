@@ -14,6 +14,8 @@ Scraping occurs using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
 
 * Application scrapes the [NASA Mars News Site](https://mars.nasa.gov/news/) and collects the latest News Title and Paragraph Text. Assigns the text to variables to be referenced later.
 
+![Opening Photo](Missions_to_Mars/screen_shots/latest_news.png)
+
 ### JPL Mars Space Images - Featured Image
 
 * The application visits the url for JPL Featured Space Image [here](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars).
@@ -46,7 +48,7 @@ Scraping occurs using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
 
 Used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
 
-Below is the head of the landing page.
+Below is the head of the landing page where the page can be updated by clicking "Scrape New Data".
 
 ![Landing Page Head](Missions_to_Mars/screen_shots/landing_page_head.png)
 
