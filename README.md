@@ -10,13 +10,13 @@ Scraping occurs using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
 
 * Created a Jupyter Notebook file and used this to complete all scraping and analysis tasks. The following outlines what is scraped by the file.
 
-## NASA Mars News
+# NASA Mars News
 
 * Application scrapes the [NASA Mars News Site](https://mars.nasa.gov/news/) and collects the latest News Title and Paragraph Text. Assigns the text to variables to be referenced later.
 
 ![Opening Photo](Missions_to_Mars/screen_shots/latest_news.png)
 
-## JPL Mars Space Images - Featured Image
+# JPL Mars Space Images - Featured Image
 
 * The application visits the url for JPL Featured Space Image [here](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars).
 
@@ -26,7 +26,7 @@ Scraping occurs using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
 
 ![Scraped Web Image](Missions_to_Mars/screen_shots/updating_image.png)
 
-## Mars Facts
+# Mars Facts
 
 * Visits the Mars Facts webpage [here](https://space-facts.com/mars/) and uses Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
 
@@ -34,7 +34,7 @@ Scraping occurs using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
 
 ![Snipped Mars Facts](Missions_to_Mars/screen_shots/mars_facts.png)
 
-## Mars Hemispheres
+# Mars Hemispheres
 
 * Visits the USGS Astrogeology site [here](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) to obtain high resolution images for each of Mar's hemispheres.
 
@@ -44,7 +44,7 @@ Scraping occurs using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
 
 ![Snipped Hemisphere Imagae](Missions_to_Mars/screen_shots/mars_hemishperes.png)
 
-## MongoDB and Flask Application
+# MongoDB and Flask Application
 
 Used MongoDB with Flask templating to create a new HTML page that displays all of the information that was scraped from the URLs above.
 
